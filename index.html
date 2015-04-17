@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Groundwater Visualisation Software System User Guide" />
+<meta name="author" content="Nahid Akbar" />
+<title>Groundwater Visualisation Help</title>
+<script src="lib/jquery.min.js"></script>
+<link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div id="top">
+    <h1>Groundwater Visualisation System</h1>
+  </div>
+  <div id="menu">
+    <!--   -->
+    <a onclick="$('#contents').load('changelog.html')">What&apos;s New</a>
+    <!--   -->
+    <a onclick="$('#contents').load('about.html')">About</a>
+    <!--   -->
+    <a onclick="$('#contents').load('demo.html')">Features</a>
+    <!--   -->
+    <a onclick="$('#contents').load('requirements.html')">Requirements</a>
+    <!--   -->
+    <a onclick="$('#contents').load('contact.html')">Contact Info</a>
+    <!--   -->
+    <a href="http://nationalmap.research.nicta.com.au/help/Help.html" target="_self">National Map Help</a>
+  </div>
+  <div id="contents"></div>
+  <script type="text/javascript">
+      $('#contents').load('changelog.html')
+    </script>
+  <div id="bottom">Copyright &copy; 2014 National ICT Australia</div>
+</body>
+</html>
